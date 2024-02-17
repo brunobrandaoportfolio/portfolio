@@ -1,57 +1,241 @@
 <!DOCTYPE HTML>
-
 <html lang="pt">
 
 <head>
-
     <meta charset="UTF-8">
-
     <title>Bruno Brandão Portfolio</title>
-
     <link rel="stylesheet" type="text/css" href="estilo.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta property="og:title" content="Bruno Brandão Portfolio" />
-
-
     <meta property="og:image" content="img\a glimpse of divinity.jpg" />
-
 </head>
 
 <body>
-
     <div class="container">
-
-
         <div class="divnav">
-            <a href="work.html">work</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
+            <ul class="ulnav">
+                <li class="linav"><a class="anav" href="#work">work</a></li>
+                <li class="linav"><a class="anav" href="#about">about</a></li>
+                <li class="linav"><a class="anav" href="#talk">talk</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn">support</button>
+                <div class="dropdown-content">
+                    <a target="_blank" href="https://ko-fi.com/dejabooga">ko-fi</a>
+                    <a target="_blank" href="https://paypal.me/webb72?country.x=PT&locale.x=pt_PT">paypal</a>
 
+                </div>
+            </div>
         </div>
 
         <div class="logo">
             <p>BRUNO <br>
                 BRANDÃO</p>
-
+        </div>
+        <div class="social">
+            <a class="anav" href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg"
+                    alt=""></a>
+            <a class="anav" href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg"
+                    alt=""> </a>
+            <a class="anav" href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg"
+                    alt=""></a>
         </div>
 
-        <div class="social">
-            <a href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg" alt="" ></a>
-            <a href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg" alt="" > </a>
-            <a href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg" alt="" ></a>
 
+
+
+    </div>
+
+
+    <div class="containerhrtop">
+        <hr>
+    </div>
+    <section class="slideshowcontainer">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="img\bloom.jpg" alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="img\blitz.jpg" alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3" src="img\uzumakicover.jpg" alt="3D rendering of an imaginary blue planet in space" />
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+    <section class="slideshowcontainermobile">
+        <div class="slider-wrappermobile">
+            <div class="slidermobile">
+                <img id="slide-1mobile" src="img\bloommobile.jpg"
+                    alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2mobile" src="img\glimpsemobile.jpg"
+                    alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3mobile" src="img\uzumakicovermobile.jpg"
+                    alt="3D rendering of an imaginary blue planet in space" />
+            </div>
+            <div class="slider-navmobile">
+                <a href="#slide-1mobile"></a>
+                <a href="#slide-2mobile"></a>
+                <a href="#slide-3mobile"></a>
+            </div>
+        </div>
+    </section>
+    <div id="work" class="containerhrwork">
+        <h1 class="worktitle">selected works</h1>
+        <hr>
+    </div>
+    <div id="work" class="containerwork">
+        <div class="workblock1">
+            <a href="glimpse.html">01 | a glimpse of divinity</a>
+            <a href="glimpse.html"> <img class="gallery1" src="img\glimpsegif.gif" alt=""></a>
+        </div>
+        <div class="workblock2">
+            <a href="odyssey.html">
+                <p>02 | odyssey of a young anxious mind</p>
+            </a>
+            <a href="odyssey.html"><img class="gallery1" src="img\odysseygal.jpg" alt=""></a>
+        </div>
+        <div class="workblock3">
+            <a href="blitz.html">
+                <p>03 | blitz magazine concept</p>
+            </a>
+            <a href="blitz.html"> <img class="gallery1" src="img\blitz.jpg" alt=""></a>
+        </div>
+        <div class="workblock4">
+            <a href="uzumaki.html">
+                <p>04 | uzumaki book cover</p>
+            </a>
+            <a href="uzumaki.html"><img class="gallery1" src="img\uzumakicover.jpg" alt=""></a>
+        </div>
+
+        <div class="workblock5">
+            <a href="bloom.html">
+                <p>05 | bloom flower shop</p>
+            </a>
+            <a href="bloom.html"><img class="gallery1" src="img\bloom.jpg" alt=""></a>
+        </div>
+        <div class="workblock6">
+            <a href="liberty.html">
+                <p>06 | time for liberty</p>
+            </a>
+            <a href="liberty.html"><img class="gallery1" src="img\liberty.jpg" alt=""></a>
         </div>
     </div>
 
-       
+    <div id="about" class="containerhrabout">
+        <h1 class="worktitle">about me</h1>
+        <hr>
+    </div>
 
-<div class="containerfooter">
+    <div class="containerabout">
 
-    <p>designed by bruno brandão</p>
+        <div class="aboutmetextcontainer">
+            <h1 class="aboutmetitle">Hi!<br>I'm Bruno.</h1>
 
-</div>
+            <p class="aboutmetxt">I'm a graphic designer and multimedia artist from Porto, Portugal.
+                This page serves as my personal portfolio where I'll showcase various projects I worked on, from Brand
+                Identities to Photography or even books. Although I practice Photography, my preferred area of work is
+                Graphic Design, I don't specialize in any specific type of Graphic Design, being open to all kinds of
+                projects, and always willing to learn more. Feel free to contact if you're interested in working with
+                me!
+            </p>
+        </div>
+        <div class="imgabout">
+            <img class="imgaboutstyle" src="img\foto500px.jpg" alt="">
+
+        </div>
+
+        <div class="imgaboutmobile">
+            <img class="imgaboutstylemobile" src="img\fotobrunomobile.jpg" alt="">
+
+        </div>
+
+
+
+    </div>
+
+    <div id="about" class="containerhrfindcontact">
+        <h1 class="worktitle">find & contact me</h1>
+        <hr>
+    </div>
+
+
+    <div id="talk" class="containerfindcontact">
+
+        <iframe class="responsive-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48059.71104114491!2d-8.663153112933324!3d41.16220022879886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto!5e0!3m2!1sen!2spt!4v1708030756795!5m2!1sen!2spt"
+            width="50%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form class="form">
+            <label class="inputlabel" for="name">Nome</label><br>
+            <input class="input" type="text" id="fname" name="fname"></input><br>
+            <label class="inputlabel" for="email">Email</label><br>
+            <input class="input" type="text" id="lname" name="lname"></input><br>
+            <label class="inputlabel" for="text">Mensagem</label><br>
+            <textarea class="inputmsg" type="text" id="lname" name="lname"></textarea>
+            <br>
+
+            <button class="submit" type="submit" value="Submit">Enviar</button>
+        </form>
+    </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="topimg" src="img/up.png" alt=""></button>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+
+
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+
+    <div class="containerhrfooter">
+        <hr>
+    </div>
+    <div class="containerfooter">
+        <p>designed by Bruno Brandão <br>
+            © 2024 Bruno Brandão
+        </p>
+
+        <div class="socialnav">
+            <a class="anav" href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg"
+                    alt=""></a>
+            <a class="anav" href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg"
+                    alt=""> </a>
+            <a class="anav" href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg"
+                    alt=""></a>
+        </div>
+    </div>
+
 
 </body>
 

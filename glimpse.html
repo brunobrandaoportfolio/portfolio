@@ -1,67 +1,157 @@
 <!DOCTYPE HTML>
-
 <html lang="pt">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <title>Bruno Brandão Portfolio</title>
-
+    <title>A Glimpse of Divinity</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
     <meta property="og:title" content="Bruno Brandão Portfolio" />
-
-
     <meta property="og:image" content="img\a glimpse of divinity.jpg" />
-
 </head>
 
 <body>
-
     <div class="container">
-
-
         <div class="divnav">
-            <a href="work.html">work</a>
-            <a href="about.html">about</a>
-            <a href="shop.html">shop</a>
-
+            <ul class="ulnav">
+                <li class="linav"><a class="anav" href="index.html">home</a></li>
+                
+            </ul>
+         
         </div>
 
-        <div class="logo">
+        <div class="logoproj">
             <p>BRUNO <br>
                 BRANDÃO</p>
+        </div>
+        <div class="social">
+            <a class="anav" href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg"
+                    alt=""></a>
+            <a class="anav" href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg"
+                    alt=""> </a>
+            <a class="anav" href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg"
+                    alt=""></a>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="containerhrtop">
+        <hr>
+    </div>
+
+    <div class="containerprojmain">
+
+       
+        <div class="projimgmain">
+            <img class="projimgstyle" src="img\glimpsegif.gif" alt="">
 
         </div>
 
-        <div class="social">
-            <a href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg" alt="" ></a>
-            <a href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg" alt="" > </a>
-            <a href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg" alt="" ></a>
+       
 
+        <div class="projtxtcontainer">
+            <h1 class="projtitle">A Glimpse of Divinity</h1>
+            <ul class="projtagsmain">
+                    <li  class="projtags">Photography</li>
+                    <li  class="projtags">  | Art Direction</li>
+                    
+                    
+
+
+
+            </ul>
+            <div class="projimgmainmobile">
+                <img class="imgprojstylemobile" src="img\glimpsegif.gif" alt="">
+    
+            </div>
+            <p class="projtxt">Based on Greek mythology, this series of photographic portraits aims to try to channel the facets and personalities of three Greek gods: <br>
+
+Aphrodite, goddess of love, beauty, lust, pleasure, and passion.<br>
+
+Artemis, goddess of hunting and nature.<br>
+
+Dionysus, god of wine, pleasure, festivity, and madness.<br>
+            </p>
+          
+        </div>
+
+
+    
+   
+
+    </div>
+    <div class="containerhrtop">
+        <hr>
+    </div>
+
+    <div class="containergaleria">
+
+
+        <img class="imggal" src="img\af1.jpg" alt="">
+        <img class="imggal" src="img\af2.jpg" alt="">
+        <img class="imggal" src="img\art1.jpg" alt="">
+        <img class="imggal" src="img\art2.jpg" alt="">
+        <img class="imggal" src="img\dio1.jpg" alt="">
+        <img class="imggal" src="img\dio2.jpg" alt="">
+    </div>
+   
+
+    </div>
+
+
+
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="topimg" src="img/up.png" alt=""></button>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+
+
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+
+    <div class="containerhrfooter">
+        <hr>
+    </div>
+    <div class="containerfooter">
+        <p>designed by Bruno Brandão <br>
+            © 2024 Bruno Brandão
+        </p>
+
+        <div class="socialnav">
+            <a class="anav" href="https://www.instagram.com/b.run.o_/" target="_blank"><img src="img\insta.svg"
+                    alt=""></a>
+            <a class="anav" href="https://www.behance.net/dejadesignstudio" target="_blank"><img src="img\behance.svg"
+                    alt=""> </a>
+            <a class="anav" href="https://www.linkedin.com/in/brunoamb99/" target="_blank"><img src="img\linkedin.svg"
+                    alt=""></a>
         </div>
     </div>
-    <div class="containerhr">
 
-        <hr>
-
-</div>
-
-       <div class="wip">
-
-        <h1>WORK IN PROGRESS</h1>
-        <img class="wipimg" src="img\monkey.gif" alt="">
-       </div>
-
-<div class="containerfooter">
-
-    <p>designed by bruno brandão</p>
-
-</div>
 
 </body>
 
